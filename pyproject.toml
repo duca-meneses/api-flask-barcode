@@ -36,6 +36,7 @@ pythonpath = "."
 lint = 'ruff . && blue --check . --diff'
 format = 'blue .  && isort .'
 pre_test = 'task lint'
+run = 'python -m src.run'
 test = 'pytest -s -x --cov=fast_zero -vv'
 post_test = 'coverage html'
 
