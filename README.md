@@ -32,6 +32,8 @@ ou usando o taskipy uma lib do python
 task run
 ```
 
+---
+
 Para usar utilizando o pip(Gerenciado de pacotes padrão do python) primeiro crie seu ambiente virtual
 
 ```python
@@ -48,6 +50,12 @@ python -m venv .venv
 
 ```python
 source .venv/bin/activate
+```
+
+para instalar as dependencia da aplicação
+
+```python
+pip install -r requirements.txt
 ```
 
 e para rodar a aplicação
